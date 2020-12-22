@@ -1,0 +1,31 @@
+.blog-card {
+  width: 40%;
+  height: 70vh;
+  margin: 2%;
+  text-align: center;
+  border-radius: 10%;
+  background-color: #f79b83;
+  background-image: linear-gradient(315deg, #f79b83 0%, #fbc6b6 74%);
+  box-shadow: 5px 10px #00000033;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+  transition-duration: 1.5s;
+  transition-delay: 50ms;
+  transition-timing-function: ease-in-out;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.blog-image {
+  width: 100%;
+  height: 70%;
+  border-radius: 10%;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
