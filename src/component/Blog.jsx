@@ -1,5 +1,6 @@
 import { React, Component } from "react";
 import BlogCard from "./BlogCard";
+
 import styles from "./style/Blog.module.css";
 
 class Blog extends Component {

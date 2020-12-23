@@ -1,10 +1,12 @@
-import Blog from "./component/Blog";
+// import Blog from "./component/Blog";
+import BlogEach from "./component/BlogEach";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Blog />
+        {/* <Blog /> */}
+        <BlogEach />
       </header>
     </div>
   );
